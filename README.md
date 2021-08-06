@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 1
 
       - name: Build ⚙️
-        uses: vivi90/jekyll-action@v0.1.1
+        uses: vivi90/jekyll-action@v1.0.0
         with:
           command: jekyll build
 
