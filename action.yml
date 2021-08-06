@@ -1,0 +1,16 @@
+name: 'Jekyll'
+author: 'Vivien Richter <vivien-richter@outlook.de>'
+description: 'Local Jekyll pipeline'
+inputs:
+  command:
+    description: 'Complete Jekyll command'
+    required: true
+    default: 'jekyll --help'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
+branding:
+  icon: 'book-open'
+  color: 'red'
