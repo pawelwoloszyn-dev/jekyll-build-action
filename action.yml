@@ -1,6 +1,6 @@
-name: 'Jekyll'
+name: 'Jekyll Minimal Action'
 author: 'Vivien Richter <vivien-richter@outlook.de>'
-description: 'Local Jekyll pipeline'
+description: 'Pure minimal Jekyll pipeline for universal usage.'
 inputs:
   command:
     description: 'Complete Jekyll command'
