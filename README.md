@@ -29,3 +29,13 @@ jobs:
           name: site
           path: _site
 ```
+Just use the `command` option as usual.
+
+## Contribution
+Please feel free to create issues and/or pull requests.
+
+## License
+This project is free software under the terms of the CC BY 4.0 license.
+For more details please see the LICENSE file or: [Creative Commons](http://creativecommons.org/licenses/by/4.0)
+
+*The licenses of the installed components may differ.*
