@@ -9,5 +9,8 @@ set -e
 # Change permissions
 chmod -R a+w /github/workspace
 
+# Use working directory
+cd /github/workspace
+
 # Run command
 $*
